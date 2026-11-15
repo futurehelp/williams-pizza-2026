@@ -1,6 +1,6 @@
 # William’s Pizza 2026
 
-Native Next.js modernization for William’s Pizza in Gramado, RS. The site keeps the real brand assets and menu information while moving the experience into a faster, editorial 2026 interface.
+Native Next.js modernization for William’s Pizza in Gramado, RS. The site keeps the real brand assets and menu information while moving the experience into a faster, editorial 2026 interface in English.
 
 ## Stack
 

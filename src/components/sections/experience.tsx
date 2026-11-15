@@ -11,36 +11,36 @@ export function Experience() {
       <div className="page-shell">
         <div className="experience-grid">
           <Reveal className="experience-copy">
-            <SectionLabel>Na sua porta</SectionLabel>
+            <SectionLabel>At your door</SectionLabel>
             <h2>
-              A noite começa
+              The night starts
               <br />
-              <em>quando chega.</em>
+              <em>when it arrives.</em>
             </h2>
             <p>
-              Pedidos pelo delivery para Gramado e Canela, preparados para preservar o crocante, o calor e o sabor da William’s do caminho até a sua mesa.
+              Delivery across Gramado and Canela, prepared to preserve William’s crisp crust, heat, and flavor from our oven to your table.
             </p>
             <MotionLink className="button button-red" href={orderLink}>
-              Pedir pelo WhatsApp <ArrowUpRight size={18} />
+              Order on WhatsApp <ArrowUpRight size={18} />
             </MotionLink>
           </Reveal>
           <Reveal delay={0.12} className="experience-image">
-            <Image src="/images/fondue.jpg" alt="Sobremesa William’s Pizza" fill sizes="(max-width: 800px) 100vw, 46vw" />
-            <div className="image-caption"><Truck size={18} /><span>Delivery em Gramado e Canela</span></div>
+            <Image src="/images/fondue.jpg" alt="William’s Pizza dessert" fill sizes="(max-width: 800px) 100vw, 46vw" />
+            <div className="image-caption"><Truck size={18} /><span>Delivery in Gramado and Canela</span></div>
           </Reveal>
         </div>
         <div className="promise-grid">
           <Reveal className="promise-card promise-card-featured">
             <span className="promise-icon"><Check size={19} /></span>
-            <div><strong>O mínimo é R$ 29</strong><p>Seu pedido chega sem complicação.</p></div>
+            <div><strong>R$ 29 minimum</strong><p>Your order, without the friction.</p></div>
           </Reveal>
           <Reveal delay={0.08} className="promise-card">
             <span className="promise-index">02</span>
-            <div><strong>Massa fininha</strong><p>Crocância que segura o sabor.</p></div>
+            <div><strong>Thin crust</strong><p>Crunch that holds the flavor.</p></div>
           </Reveal>
           <Reveal delay={0.16} className="promise-card">
             <span className="promise-index">03</span>
-            <div><strong>Feita na hora</strong><p>Do forno para a sua noite.</p></div>
+            <div><strong>Made to order</strong><p>From our oven to your night.</p></div>
           </Reveal>
         </div>
       </div>

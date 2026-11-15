@@ -11,17 +11,17 @@ export function MenuSection() {
       <div className="page-shell">
         <div className="section-intro menu-intro">
           <Reveal>
-            <SectionLabel inverse>Do forno para a mesa</SectionLabel>
+            <SectionLabel inverse>From the oven to the table</SectionLabel>
             <h2>
-              Escolha o seu
+              Choose your
               <br />
-              <em>próximo pedaço.</em>
+              <em>next slice.</em>
             </h2>
           </Reveal>
           <Reveal delay={0.1} className="intro-aside intro-aside-light">
-            <p>Sabores clássicos, combinações para compartilhar e doces que encerram a noite no ponto certo.</p>
+            <p>Classic flavors, combinations made to share, and sweets that finish the night on the right note.</p>
             <MotionLink className="text-link light-link" href={orderLink}>
-              Abrir pedido <ArrowUpRight size={17} />
+              Start an order <ArrowUpRight size={17} />
             </MotionLink>
           </Reveal>
         </div>
