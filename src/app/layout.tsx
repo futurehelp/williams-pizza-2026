@@ -14,7 +14,20 @@ export const metadata: Metadata = {
   openGraph: {
     title: "William’s Pizza | Gramado",
     description: "Thin crust, generous ingredients, and flavor that arrives hot.",
-    images: ["/images/hero.png"],
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "William’s Pizza — crisp by design, generous by nature.",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "William’s Pizza | Gramado",
+    description: "Thin crust, generous ingredients, and flavor that arrives hot.",
+    images: ["/og-image.png"],
   },
 };
 
